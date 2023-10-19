@@ -1,0 +1,19 @@
+/* Footer Tahun Copyright */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Gaya teks hak cipta */
+footer p {
+    background-color: #333333; /* Tambahkan warna latar belakang */
+    padding: 5px 0;
+}
