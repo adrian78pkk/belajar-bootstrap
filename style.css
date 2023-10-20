@@ -39,3 +39,27 @@ body.dark-mode {
     background-color: #fff; /* Warna ikon mode gelap */
     border: 2px solid #777; /* Warna garis lingkaran mode gelap */
 }
+
+.project-container {
+    display: flex;
+    justify-content: space-around; /* Untuk menyusun proyek secara horizontal dan ratakan di tengah. */
+    align-items: center; /* Untuk tengah secara vertikal jika proyek berbeda tinggi. */
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%; /* Untuk membagi ruang 30% lebar layar untuk setiap proyek. */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-description {
+    font-size: 16px;
+}
