@@ -17,3 +17,25 @@ footer p {
     background-color: #333333; /* Tambahkan warna latar belakang */
     padding: 5px 0;
 }
+
+/* style.css */
+#mode-label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #777; /* Warna teks untuk label */
+}
+/* darkmode.css */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Styling untuk mode gelap */
+.slider {
+    background-color: #777; /* Warna latar belakang sakelar mode gelap */
+}
+
+.slider:before {
+    background-color: #fff; /* Warna ikon mode gelap */
+    border: 2px solid #777; /* Warna garis lingkaran mode gelap */
+}
