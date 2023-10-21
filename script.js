@@ -21,3 +21,9 @@ if (localStorage.getItem('dark-mode') === 'enabled') {
     darkModeToggle.checked = true;
     modeLabel.textContent = 'Mode Gelap';
 }
+
+document.addEventListener('mousemove', (e) => {
+    const cursor = document.querySelector('.cool-cursor');
+    cursor.style.top = `${e.pageY}px`;
+    cursor.style.left = `${e.pageX}px`;
+});
