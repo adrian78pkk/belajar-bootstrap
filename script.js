@@ -21,3 +21,9 @@ if (localStorage.getItem('dark-mode') === 'enabled') {
     darkModeToggle.checked = true;
     modeLabel.textContent = 'Mode Gelap';
 }
+
+
+
+
+
+
