@@ -63,28 +63,3 @@ body.dark-mode {
 .card-description {
     font-size: 16px;
 }
-
-body {
-    cursor: none; /* Sembunyikan kursor default. */
-    overflow: hidden; /* Agar kursor dapat bergerak di seluruh halaman. */
-    margin: 0;
-}
-
-.cool-cursor {
-    width: 20px;
-    height: 20px;
-    background-color: #ff5733; /* Ganti dengan warna yang Anda inginkan. */
-    border-radius: 50%; /* Agar menjadi lingkaran. */
-    position: absolute;
-    pointer-events: none; /* Membuat elemen ini tidak dapat diinteraksi. */
-    animation: cool-cursor-animation 0.2s infinite alternate;
-}
-
-@keyframes cool-cursor-animation {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}
